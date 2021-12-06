@@ -1,7 +1,7 @@
 <?php
     require_once "./fieldCheck.php";
     require_once "./httpResponse.php";
-    require_once "././Model/register.php";
+    // require_once "././Model/register.php";
     
     class method {
         public static function newJudge($data) {
