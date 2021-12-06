@@ -1,4 +1,5 @@
 <?php
+    require_once "./conn.php";
     require_once "./fieldCheck.php";
     require_once "./httpResponse.php";
     // require_once "././Model/register.php";
