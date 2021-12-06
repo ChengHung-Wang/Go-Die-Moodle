@@ -1,5 +1,5 @@
 # 台科大英語自學點數剋星
-全自動操作、為您省下大把時間，還可以開出多個同時作答。
+全自動操作、為您省下大把時間，還可以開出多個視窗同時作答。
 
 ### Demo 影片
 [![Demo影片連結](https://raw.githubusercontent.com/ChengHung-Wang/Go-Die-Moodle/main/img/screenshot1.png)](https://www.youtube.com/watch?v=NDjQtxoEI9c) 
