@@ -47,7 +47,8 @@
 
 		private function json($data, $stateCode = 200) {
 			header('Accept: application/json');
-			header('Content-Type: application/json');
+            header('Content-Type: application/json');
+            header('Access-Control-Allow-Origin: *');
 			echo json_encode($data, JSON_PRETTY_PRINT);
 			http_response_code($stateCode);
 			exit;
