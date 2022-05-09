@@ -35,6 +35,6 @@ Scripty (Chrome 插件) [安裝連結](https://chrome.google.com/webstore/detail
     2. Javascript Code: 到本專案的js資料夾中找到檔案`fuckMoodle_withBackend.js`，用文本編輯器將它打開複製起來貼到這裡。
     3. Run script if: [URL] [Contains] Following input
     4. 在輸入欄位中輸入這個`https://ntustlc.gnomio.com/`
-    5. Trigger: Manually
+    5. Trigger: Automatically, Before page load
     ![配置範例](./note/scriptyConfig.png)
 10. 打開 https://ntustlc.gnomio.com/ ，進入你要完成的課程，打開該課程的「成績」，開到作答頁面程式就會自動執行了。
