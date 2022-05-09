@@ -14,7 +14,7 @@ XAMPP(7.3.6, 包含 Apache Server, MySQL) [Windows](https://sourceforge.net/proj
 
 Scripty (Chrome 插件) [安裝連結](https://chrome.google.com/webstore/detail/scripty-javascript-inject/milkbiaeapddfnpenedfgbfdacpbcbam?utm_source=chrome-ntp-icon)
 
-### 安裝教學
+###安裝教學
 
 1. 去裝上面寫到的兩個東西
 2. 把我這個專案檔案丟到下面的資料夾，並且把資料夾重新命名為「fuckMoodle」
