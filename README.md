@@ -25,7 +25,7 @@ Try this and turbocharge your English self-learning program up!
    Install these two programs.
 
    - XAMPP (7.3.6, includes Apache Server, MySQL) [Windows](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.3.6/xampp-windows-x64-7.3.6-4-VC15-installer.exe/download) | [macOS](https://sourceforge.net/projects/xampp/files/XAMPP%20Mac%20OS%20X/7.3.6/xampp-osx-7.3.6-4-installer.dmg/download)
-   - Scripty (Chrome plugin) [install link](https://chrome.google.com/webstore/detail/scripty-javascript-inject/milkbiaeapddfnpenedfgbfdacpbcbam?utm_source=chrome-ntp-icon)
+   - Scripty (Chrome plugin) [Install link](https://chrome.google.com/webstore/detail/scripty-javascript-inject/milkbiaeapddfnpenedfgbfdacpbcbam?utm_source=chrome-ntp-icon)
 
 2. 把這個專案檔案丟到下面的資料夾，並且把資料夾重新命名為「fuckMoodle」  
    Put all the files in this repository into the following path and rename the folder to "fuckMoodle".
@@ -41,23 +41,23 @@ Try this and turbocharge your English self-learning program up!
    ![xampp running sample](./note/xampp_withCircle.png)
 
 5. 打開瀏覽器，輸入：`http://localhost/phpmyadmin` 進入資料庫管理頁面  
-   Open the browser, enter the url: `http://localhost/phpmyadmin` to get into database management page
+   Open the browser, enter the url: `http://localhost/phpmyadmin` to get into database management page.
 
-6. 新建一個名稱叫「fuck_moodle」的資料庫，編碼類型請選「UTF8MB4_unicode_CI」  
-   Create a new database called "fuck_moodle" with "UTF8MB4_unicode_CI" as encoding type
+6. 新建一個名稱叫「fuck_moodle」的資料庫，編碼類型請選「utf8mb4_unicode_ci」  
+   Create a new database called "fuck_moodle" with "utf8mb4_unicode_ci" as encoding type
 
 7. 將`fuck_moodle.sql`匯入到剛剛創建的資料庫  
    Import the file fuck_moodle.sql to the database you just created
 
-8. 用瀏覽器前往`http://localhost/fuckMoodle`。如果你看到以下的畫面且沒有其他錯誤就表示 API 佈建完成。  
+8. 用瀏覽器前往 `http://localhost/fuckMoodle` 。如果你看到以下的畫面且沒有其他錯誤就表示 API 佈建完成。  
    Go to `http://localhost/fuckMoodle` in your browser. If you see the following picture and no other errors, it means the APIs are deployed.
    ![佈建完成範例](./note/api_build_successful.png)
 
 9. 到 Scripty 裡面新增一個 Script  
-   Add a Script in Scripty Chrome plugin
+   Add a Script in Scripty Chrome plugin.
 
    1. Name: 隨便亂打  
-      Name: Doesn't matter
+      Name: Doesn't matter.
    2. Javascript Code: 到本專案的資料夾中找到檔案`fuckMoodle_withBackend.js`，用文字編輯器將它打開複製起來貼到這裡。  
       Javascript Code: Go to the folder of this project and find the file `fuckmoodle_withbackend.js`, copy all of it in a text editor and paste it here.
    3. Run script if: [URL] [Contains] Following input
@@ -67,4 +67,5 @@ Try this and turbocharge your English self-learning program up!
 
       ![配置範例](./note/scriptyConfig.png)
 
-10. 打開 `https://ntustlc.gnomio.com/` ，進入你要完成的課程，打開該課程的「成績」，開到作答頁面程式就會自動執行了。
+10. 打開 `https://ntustlc.gnomio.com/` ，進入你要完成的課程，打開該課程的「成績」，開到作答頁面程式就會自動執行了。  
+    Open `https://ntustlc.gnomio.com/` in your browser, click the course you want to finish, and the script will run when you get to answer page.
